@@ -30,7 +30,7 @@ def get_margin(auctions):
 
 async def check_logs():
     channel = bot.get_channel(949012493047578624) #unused xd
-    lm_channel = bot.get_channel(1197397274716807251)
+    lm_channel = bot.get_channel(1197399693093773324)
     f2channel = bot.get_channel(1197399743228297427)
     f2_2channel = bot.get_channel(1197399773490196502) #THIS CHANNEL IS FOR 0 or 5 stars flips
     f2_2_2channel = bot.get_channel(1197399818729959475) #THIS CHANNEL IS FOR 5 stars flips
