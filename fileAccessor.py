@@ -30,14 +30,14 @@ def get_margin(auctions):
 
 async def check_logs():
     channel = bot.get_channel(949012493047578624) #unused xd
-    lm_channel = bot.get_channel(949012556100554752)
-    f2channel = bot.get_channel(950467930032848977)
-    f2_2channel = bot.get_channel(955488324431253584) #THIS CHANNEL IS FOR 0 or 5 stars flips
-    f2_2_2channel = bot.get_channel(1101939979543924859) #THIS CHANNEL IS FOR 5 stars flips
-    f3channel = bot.get_channel(951851755015114772)
-    superchannel = bot.get_channel(953404693156089937)
+    lm_channel = bot.get_channel(1197397274716807251)
+    f2channel = bot.get_channel(1197399743228297427)
+    f2_2channel = bot.get_channel(1197399773490196502) #THIS CHANNEL IS FOR 0 or 5 stars flips
+    f2_2_2channel = bot.get_channel(1197399818729959475) #THIS CHANNEL IS FOR 5 stars flips
+    f3channel = bot.get_channel(1197399818729959475)
+    superchannel = bot.get_channel(1197399856453537832)
     #super2channel = bot.get_channel()#make channel soon
-    petchannel = bot.get_channel(959984499905675304)
+    petchannel = bot.get_channel(1197399880092631060)
     runechannel = bot.get_channel(1019055075991240746)
     log = './fliplogs/logs.txt' #unused xd
     lmlog = './fliplogs/logs_f1.txt'
@@ -213,7 +213,7 @@ async def check_logs():
 
 @bot.command(name = 'run')
 async def start_check(ctx):
-    if ctx.author.id == 488730568209465344:
+    if ctx.author.id == 432291405314916352:
         while True:
             await check_logs()
             time.sleep(1)
